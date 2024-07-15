@@ -1,4 +1,4 @@
-######################################### Dashboard_Ventas_BCX
+                                                            # Dashboard_Ventas_BCX
 
 ![LogoGLM](img/Logo.jpeg)
 
