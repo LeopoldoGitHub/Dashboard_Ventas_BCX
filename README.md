@@ -1,6 +1,6 @@
 # Dashboard_Ventas_BCX
 
-![LogoGLM](img/Logo.png)
+![LogoGLM](img/Logo.jpeg)
 
 Dashboard interactivo de una empresa de e-commerce desplegado en la platafprma STREAMLIT
 
