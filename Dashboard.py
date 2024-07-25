@@ -7,7 +7,7 @@ import grafbarestado as grafbarest
 import grafbarvendedor as grafbarvend
 import grafbarproducto as grafbarprod
 import grafpievendedor as grafpievend
-
+import preprocesamiento as preprocesamiento
 
 # Configuración de Streamlit
 st.set_page_config(
@@ -27,9 +27,27 @@ try:
     df_final = pd.read_csv('https://raw.githubusercontent.com/LeopoldoGitHub/Dashboard_Ventas_BCX/main/BBDD/df_final.csv')
 except Exception as e:
     st.error(f"Error al cargar los datos: {e}")
+df_itens_pedidos, df_pedidos, df_productos, df_vendedores= preprocesamiento.preprocesamiento(df_itens_pedidos, df_pedidos, df_productos, df_vendedores)
+
+#Fusionar itens_pedidos con coordenadas de Brasil
+# # Leer geodataframe de Brasil.Creado con esta referencia : https://github.com/ipeaGIT/geobr
+brasil_geodf = pd.read_csv('https://raw.githubusercontent.com/LeopoldoGitHub/Dashboard_Ventas_BCX/main/BBDD/brasil_geodf.csv')
+
+# # Fusionar los datos de los estados de Brasil con el DataFrame df_itens_pedidos
+df_itens_pedidos = df_itens_pedidos.merge(brasil_geodf, left_on='abbrev_state', right_on='abbrev_state', how='inner')
+# Eliminar la columna 'ciudad' ya que es redundante
+df_itens_pedidos=df_itens_pedidos.drop(columns=['ciudad'])
+#Renombramos columna de valor total para diferenciar del valor total de pedidos
+df_itens_pedidos = df_itens_pedidos.rename(columns={'valor_total': 'valor_total_itens'})
 
 
-# Convertir la columna de fechas a datetime64[ns]
+
+# #Tratamiento y creación de df_final
+merged1 = pd.merge(df_itens_pedidos, df_pedidos, on=['producto_id', 'pedido_id'])
+merged2 = pd.merge(merged1, df_productos, on='producto_id')
+df_final = pd.merge(merged2, df_vendedores, on='vendedor_id')
+
+# Asegurar Convertir la columna de fechas a datetime64[ns]
 df_final["fecha_compra"] = pd.to_datetime(df_final["fecha_compra"])
 
 st.write('df_final consolidado')
