@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly.express
+plotly.graph_objs
+json
+urllib.request
+
+
