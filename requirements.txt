@@ -1,8 +1,6 @@
 streamlit
 pandas
-plotly.express
-plotly.graph_objs
-json
+plotly ==5.3.1
 urllib.request
 
 
