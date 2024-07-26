@@ -1,19 +1,3 @@
-#Fusionar itens_pedidos con coordenadas de Brasil
-# # # Leer geodataframe de Brasil.Creado con esta referencia : https://github.com/ipeaGIT/geobr
-# brasil_geodf = pd.read_csv('https://raw.githubusercontent.com/LeopoldoGitHub/Dashboard_Ventas_BCX/main/BBDD/brasil_geodf.csv')
-
-# # # Fusionar los datos de los estados de Brasil con el DataFrame df_itens_pedidos
-# df_itens_pedidos = df_itens_pedidos.merge(brasil_geodf, left_on='abbrev_state', right_on='abbrev_state', how='inner')
-# # Eliminar la columna 'ciudad' ya que es redundante
-# df_itens_pedidos=df_itens_pedidos.drop(columns=['ciudad'])
-# #Renombramos columna de valor total para diferenciar del valor total de pedidos
-# df_itens_pedidos = df_itens_pedidos.rename(columns={'valor_total': 'valor_total_itens'})
-
-# # #Tratamiento y creación de df_final
-# merged1 = pd.merge(df_itens_pedidos, df_pedidos, on=['producto_id', 'pedido_id'])
-# merged2 = pd.merge(merged1, df_productos, on='producto_id')
-# df_final = pd.merge(merged2, df_vendedores, on='vendedor_id')
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -46,13 +30,11 @@ except Exception as e:
     st.error(f"Error al cargar los datos: {e}")
 df_itens_pedidos, df_pedidos, df_productos, df_vendedores= preprocesamiento.preprocesamiento(df_itens_pedidos, df_pedidos, df_productos, df_vendedores)
 
-
 # Convertir la columna de fechas a datetime64[ns]
 df_final["fecha_compra"] = pd.to_datetime(df_final["fecha_compra"])
 
 st.write('df_final consolidado')
 st.dataframe(df_final)
-
 
 # Sidebar
 st.sidebar.header("Filtros")
@@ -138,3 +120,4 @@ with col2:
     # Ventas por vendedores
     st.subheader("Ventas por vendedores")
     st.plotly_chart(fig_pie_vendedor, use_container_width=True)
+
