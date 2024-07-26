@@ -1,6 +1,8 @@
 streamlit
-pandas
-plotly ==5.3.1
+pandas==2.2.1
+plotly ==5.23.0
 urllib3==1.26.7
+numpy==2.0.1
+
 
 
