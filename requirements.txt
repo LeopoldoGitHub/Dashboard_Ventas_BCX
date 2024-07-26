@@ -1,6 +1,6 @@
 streamlit
 pandas
 plotly ==5.3.1
-urllib.request
+urllib3==1.26.7
 
 
