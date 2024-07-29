@@ -11,7 +11,7 @@ st.set_page_config(layout='wide')
 
 #Title of the page  and introduction message
 st.title('Dashboard de ventas :shopping_trolley:')
-st.write('HOLA')
+
 
 def formata_numero(valor, prefijo = ''):
 	for unidad in ['', 'k']:
@@ -19,7 +19,7 @@ def formata_numero(valor, prefijo = ''):
 			return f'{prefijo} {valor:.2f} {unidad}'
 		valor /= 1000
 	return f'{prefijo} {valor:.2f} M'
-df_items = pd.read_csv('df_itens_pedidos.csv')
+
 
 #Obtaining CSV file from a github's public repository 
 df_final_raw= pd.read_csv('https://raw.githubusercontent.com/LeopoldoGitHub/Dashboard_Ventas_BCX/main/BBDD/df_final.csv')
