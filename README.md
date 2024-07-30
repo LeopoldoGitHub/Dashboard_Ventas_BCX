@@ -42,11 +42,12 @@ d) Calca Jeans Costuras    2--->2 marcas (Seven y Diesel): Justificado
 
 Consideramos justificada la diferencia en el mismo producto cuando son de marcas diferentes, lo que genera SKU y producto_id diferentes, también precio. Sin embargo, el producto Saia Pregas Preta, es la misma marca, el mismo nombre, pero con precios y id distintos. Se decide dejar esos datos considerando que pueden ser de tallas distintas y de precio mayor o que tienen un diferente calidad.
 
+### Gráficos explicativos
+![Histogramas](img/Histogramas-items_pedidos.jpg)
+
 3)Banco de Datos
 
 4)Tablero de Ventas 
-
-### Gráficos explicativos
 
 ## Funcionalidades
 
