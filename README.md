@@ -1,5 +1,6 @@
-#         Dashboard de Ventas - BootCamp Experience   #
-Dashboard_Ventas_BCX
+#         **Dashboard de Ventas**
+Bootcamp Experience
+
 
 ![LogoGLM](img/Logo.jpeg)
 
@@ -10,6 +11,7 @@ Cuadros y gráficos (dashboard) interactivo de una empresa de e-commerce despleg
 
 
 ## Funcionalidades
+
   Gráficos
   
   Cuadros
