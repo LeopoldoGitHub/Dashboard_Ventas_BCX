@@ -5,9 +5,8 @@ Bootcamp Experience
 ![LogoGLM](img/Logo.jpeg)
 
 ## Información
-Aplicación en línea que muestra información consolidadada por regiones, ciudades, vendedores y productos de la evoluciónde compras en una tienda ubicada en todo el territorio brasilero. 
-
-Cuadros y gráficos (dashboard) interactivo de una empresa de e-commerce desplegado en la platafprma Streamlit.
+Aplicación en línea que muestra información consolidadada por regiones, ciudades, vendedores y productos de la evolución de compras en una tienda ubicada en el territorio brasilero. 
+Dashboard interactivo de una empresa de e-commerce desplegado en la platafprma Streamlit.
 
 
 ## Funcionalidades
@@ -17,6 +16,11 @@ Cuadros y gráficos (dashboard) interactivo de una empresa de e-commerce despleg
   Cuadros
   
   Filtros
+## Pre procesamiento de los datos 
+Obtención, estandarización y consolidación de los datos a una tabla común.
+
+### Gráficos explicativos
+
 
 ## <h3 align="center">🛠️ Miembros del Equipo</h3>
 <br>
