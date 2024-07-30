@@ -1,13 +1,40 @@
 #         **Dashboard de Ventas**
-Bootcamp Experience
+Bootcamp Xperience
 
-
-![LogoGLM](img/Logo.jpeg)
+![Grupo 2 Bx](img/LogoG2X-50.jpg)
 
 ## Información
 Aplicación en línea que muestra información consolidadada por regiones, ciudades, vendedores y productos de la evolución de compras en una tienda ubicada en el territorio brasilero. 
-Dashboard interactivo de una empresa de e-commerce desplegado en la platafprma Streamlit.
+Dashboard interactivo de una empresa de e-commerce desplegado en la plataforma Streamlit.
 
+## Paso a Paso
+Detalle del tratamiento de los datos. Obtención, estandarización y consolidación de los datos.
+
+1) El Negocio. El Cliente.
+
+Una tienda en línea, de artículos de moda, con presencia en todo Brasil, necesita impulsar su rendimiento utilizando sus datos de manera estratégica.
+Como científicos de datos, hemos sido convocados para analizar datos de transacciones de tres períodos calendario y ofrecer una vison interna profunda sobre los consumidores que guíen sus decisiones respondiendo a preguntas clave:
+                    
+                    ¿Cuál es el Top 5 productos más vendidos históricamente?
+
+                    ¿Cuál es la evolución histórica de las ingresos netos?
+
+                    ¿Cuáles son los ingresos netos por vendedor por año?
+
+                    ¿Cuáles son las ciudades que proporcionan mayores ingresos netos?
+
+                    Otro insight. 
+ 
+2)Obtención, Tratamiento y Análisis Exploratório (EDA)
+
+Proceso de investigación en el que, usando estadísticas de resumen y herramientas gráficas, se llega a conocer los datos y comprender lo que se puede averiguar de ellos.
+
+
+3)Banco de Datos
+
+4)Tablero de Ventas 
+
+### Gráficos explicativos
 
 ## Funcionalidades
 
@@ -16,12 +43,6 @@ Dashboard interactivo de una empresa de e-commerce desplegado en la platafprma S
   Cuadros
   
   Filtros
-## Pre procesamiento de los datos 
-Obtención, estandarización y consolidación de los datos a una tabla común.
-
-### Gráficos explicativos
-
-
 ## <h3 align="center">🛠️ Miembros del Equipo</h3>
 <br>
 <div align="center"> 
