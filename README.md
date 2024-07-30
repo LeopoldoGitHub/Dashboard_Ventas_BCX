@@ -1,15 +1,24 @@
-                                                               Dashboard_Ventas_BCX
+#         Dashboard de Ventas - BootCamp Experience   #
+Dashboard_Ventas_BCX
 
 ![LogoGLM](img/Logo.jpeg)
 
-Dashboard interactivo de una empresa de e-commerce desplegado en la platafprma STREAMLIT
+## Información
+Aplicación en línea que muestra información consolidadada por regiones, ciudades, vendedores y productos de la evoluciónde compras en una tienda ubicada en todo el territorio brasilero. 
+
+Cuadros y gráficos (dashboard) interactivo de una empresa de e-commerce desplegado en la platafprma Streamlit.
 
 
-<h3 align="center">🛠️ Miembros del Equipo</h3>
-****
+## Funcionalidades
+  Gráficos
+  
+  Cuadros
+  
+  Filtros
+
+## <h3 align="center">🛠️ Miembros del Equipo</h3>
 <br>
 <div align="center"> 
- 
 
 |Participantes|Roles|Redes|
 |:---:|:---:|:---:|
@@ -22,14 +31,13 @@ Dashboard interactivo de una empresa de e-commerce desplegado en la platafprma S
 |**Leopoldo Flores**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/leopoldofloresc/">[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leopoldofloresc/)</a> |
 
 
-
 </div>
 <br>
 
 
 
 
-<h2>🚧 Stack de Tecnologías </h2>
+## <h2>🚧 Stack de Tecnologías </h2>
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat&logo=google-colab&logoColor=white)](https://colab.research.google.com/)
