@@ -25,10 +25,22 @@ Como científicos de datos, hemos sido convocados para analizar datos de transac
 
                     Otro insight. 
  
-2)Obtención, Tratamiento y Análisis Exploratório (EDA)
+2) Obtención, Tratamiento y Análisis Exploratório (EDA)
 
 Proceso de investigación en el que, usando estadísticas de resumen y herramientas gráficas, se llega a conocer los datos y comprender lo que se puede averiguar de ellos.
 
+Diagnóstico:
+Se identificaron inconsistencias en cuanto al producto_id -únicos (205)- y producto -únicos (201)- determinando lo siguiente:
+
+a) Calca Alfaiataria Preta 2--->2 marcas (Mixed y Lelis Blanc): Justificado
+
+b) Saia Pregas Preta       2--->1 marca (Zara) precios distintos: Injustificado
+
+c) Vestido Recortes Cores  2--->2 marcas (Alix Shop y Bcbgmaxzria): Justificado
+
+d) Calca Jeans Costuras    2--->2 marcas (Seven y Diesel): Justificado
+
+Consideramos justificada la diferencia en el mismo producto cuando son de marcas diferentes, lo que genera SKU y producto_id diferentes, también precio. Sin embargo, el producto Saia Pregas Preta, es la misma marca, el mismo nombre, pero con precios y id distintos. Se decide dejar esos datos considerando que pueden ser de tallas distintas y de precio mayor o que tienen un diferente calidad.
 
 3)Banco de Datos
 
