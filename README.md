@@ -72,16 +72,16 @@ Consideramos justificada la diferencia en el mismo producto cuando son de marcas
   Distribución de Precios por Condición
 ![Precios por Condición Producto](img/DistribucionPreciosCondicionProducto.jpg)
 
-  
-3)Tablero de Ventas 
+  Ventas por Mes por Año
+![Ventas Mes Año](img/LineasVentasMesAnio.jpg)
 
-## Funcionalidades
+## Tablero de Ventas 
 
-  Gráficos
-  
-  Cuadros
-  
-  Filtros
+Funcionalidades:   Cuadros -   Filtros  - Gráficos
+
+
+
+
 ## <h3 align="center">🛠️ Miembros del Equipo</h3>
 <br>
 <div align="center"> 
