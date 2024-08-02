@@ -1,7 +1,7 @@
 #         **Dashboard de Ventas**
 Bootcamp Xperience
 
-![Grupo 2 Bx](img/LogoG2X-50.jpg)
+   ![Grupo 2 Bx](img/LogoG2X-50.jpg)
 
 ## Información
 Aplicación en línea que muestra información consolidadada por regiones, ciudades, vendedores y productos de la evolución de compras en una tienda ubicada en el territorio brasilero. 
@@ -79,9 +79,22 @@ Consideramos justificada la diferencia en el mismo producto cuando son de marcas
 
 Funcionalidades:   Cuadros -   Filtros  - Gráficos
 
+  Página Principal
+  
+![Home SalesPro](img/SalesProDashboardBX.jpg)
 
+  Filtros Habilitados para Selecciones
 
+![Filtros Selección](img/SalesProDashboardGraficos.jpg)
 
+  Ejemplo Filtro por Estado
+
+![Filtro por Estado](img/SalesProDashEstado.jpg)
+
+  Selección de Ventas de un producto por Vendedores
+  
+  ![Ventas de Un producto por Vendedor](img/SalesProDashVendeoresProd.jpg)
+  
 ## <h3 align="center">🛠️ Miembros del Equipo</h3>
 <br>
 <div align="center"> 
