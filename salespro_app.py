@@ -53,6 +53,7 @@ df_final["fecha_compra"] = pd.to_datetime(df_final["fecha_compra"])
 
 estados = st.sidebar.multiselect("Estado", options=df_final["name_state"].unique())
 region = st.sidebar.multiselect("Región", options=df_final["name_region"].unique(), help="Sul se refiere al Sur en portugués")
+vendedores = st.sidebar.multiselect("Vendedor", options=df_final["nombre_vendedor"].unique())
 
 productos = ["Todos"] + list(df_final["tipo_producto"].unique())
 producto = st.sidebar.selectbox("Productos", productos)
@@ -69,6 +70,8 @@ if estados:
     df_filtrado = df_filtrado[df_filtrado["name_state"].isin(estados)]
 if region:
     df_filtrado = df_filtrado[df_filtrado["name_region"].isin(region)]
+if vendedores:
+    df_filtrado = df_filtrado[df_filtrado["nombre_vendedor"].isin(vendedores)]
 if producto != 'Todos':
     df_filtrado = df_filtrado[df_filtrado["tipo_producto"] == producto]
 if not todo_el_periodo:
