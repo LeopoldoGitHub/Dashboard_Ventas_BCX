@@ -18,7 +18,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-
 st.title("Bienvenido al Dashboard de Ventas-SalesPro")
 st.image("./img/LogoSales.jpeg", width=350)
 
