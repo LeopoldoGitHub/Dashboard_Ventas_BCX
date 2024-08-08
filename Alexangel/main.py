@@ -13,7 +13,7 @@ st.sidebar.image('fashionShop.jpeg')
 
 ## dataframes
 df_final = pd.read_csv('https://raw.githubusercontent.com/LeopoldoGitHub/Dashboard_Ventas_BCX/main/BBDD/df_final.csv')
-df_map = pd.read_csv('df_map.csv')
+# df_map = pd.read_csv('df_map.csv')
 df_bar = pd.read_csv('df_bar.csv')
 df_lines = pd.read_csv('df_lines.csv')
 df_pizza = pd.read_csv('df_pizza.csv')
