@@ -10,7 +10,6 @@ import grafpievendedor as grafpievend
 import preprocesamiento as preprocesamiento
 import numpy as np
 
-
 # Configuración de Streamlit
 st.set_page_config(
     page_title="Dashboard de Ventas-SalesPro",
@@ -51,8 +50,17 @@ df_itens_pedidos, df_pedidos, df_productos, df_vendedores = preprocesamiento.pre
 # Convertir la columna de fechas a datetime64[ns]
 df_final["fecha_compra"] = pd.to_datetime(df_final["fecha_compra"])
 
-estados = st.sidebar.multiselect("Estado", options=df_final["name_state"].unique())
+# Filtrado por región
 region = st.sidebar.multiselect("Región", options=df_final["name_region"].unique(), help="Sul se refiere al Sur en portugués")
+
+# Filtrado dinámico por estado basado en la región seleccionada
+if region:
+    estados_disponibles = df_final[df_final["name_region"].isin(region)]["name_state"].unique()
+else:
+    estados_disponibles = df_final["name_state"].unique()
+
+estados = st.sidebar.multiselect("Estado", options=estados_disponibles)
+
 vendedores = st.sidebar.multiselect("Vendedor", options=df_final["nombre_vendedor"].unique())
 
 productos = ["Todos"] + list(df_final["tipo_producto"].unique())
@@ -66,10 +74,10 @@ if not todo_el_periodo:
 # Filtrar el dataframe
 df_filtrado = df_final.copy()
 
-if estados:
-    df_filtrado = df_filtrado[df_filtrado["name_state"].isin(estados)]
 if region:
     df_filtrado = df_filtrado[df_filtrado["name_region"].isin(region)]
+if estados:
+    df_filtrado = df_filtrado[df_filtrado["name_state"].isin(estados)]
 if vendedores:
     df_filtrado = df_filtrado[df_filtrado["nombre_vendedor"].isin(vendedores)]
 if producto != 'Todos':
@@ -145,6 +153,7 @@ with col2:
     # Ventas por vendedores
     st.subheader("Ventas por vendedores")
     st.plotly_chart(fig_pie_vendedor, use_container_width=True)
+
 
 
 #---------------------------------------------------------------
