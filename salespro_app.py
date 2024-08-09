@@ -8,6 +8,7 @@ import grafbarvendedor as grafbarvend
 import grafbarproducto as grafbarprod
 import grafpievendedor as grafpievend
 import preprocesamiento as preprocesamiento
+from merge import merge_dataframes
 import numpy as np
 
 # Configuración de Streamlit
@@ -41,11 +42,14 @@ try:
     df_pedidos = pd.read_csv('https://raw.githubusercontent.com/LeopoldoGitHub/Dashboard_Ventas_BCX/main/BBDD/df_pedidos.csv')
     df_productos = pd.read_csv('https://raw.githubusercontent.com/LeopoldoGitHub/Dashboard_Ventas_BCX/main/BBDD/df_productos.csv')
     df_vendedores = pd.read_csv('https://raw.githubusercontent.com/LeopoldoGitHub/Dashboard_Ventas_BCX/main/BBDD/df_vendedores.csv')
-    df_final = pd.read_csv('https://raw.githubusercontent.com/LeopoldoGitHub/Dashboard_Ventas_BCX/main/BBDD/df_final.csv')
+    #df_final = pd.read_csv('https://raw.githubusercontent.com/LeopoldoGitHub/Dashboard_Ventas_BCX/main/BBDD/df_final.csv')
 except Exception as e:
     st.error(f"Error al cargar los datos: {e}")
 
 df_itens_pedidos, df_pedidos, df_productos, df_vendedores = preprocesamiento.preprocesamiento(df_itens_pedidos, df_pedidos, df_productos, df_vendedores)
+
+#haciendo merging
+df_final = merge_dataframes(df_itens_pedidos, df_pedidos, df_productos, df_vendedores)
 
 # Convertir la columna de fechas a datetime64[ns]
 df_final["fecha_compra"] = pd.to_datetime(df_final["fecha_compra"])
