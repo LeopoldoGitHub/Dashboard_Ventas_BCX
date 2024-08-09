@@ -17,5 +17,11 @@ def crear_grafico_linea(df):
                        color = 'Año',
                        line_dash = 'Año',
                        )
+    fig_line.update_layout(
+    title='',
+    title_x=0,
+    width=800,  # Asegurar que el ancho sea coherente
+    height=500  # Asegurar que la altura sea coherente
+)
     
     return fig_line

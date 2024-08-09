@@ -31,7 +31,7 @@ def crear_grafico(df):
             colorbar = {'title':'Ingresos ($)','tickformat': '.3s'}        
             )
     layout = dict(
-                title='Ingresos por Estado ($)',
+                title='',
                 geo =dict(
                      scope='south america',
                      resolution=50,
