@@ -56,7 +56,11 @@ def preprocesamiento(df_itens_pedidos, df_pedidos, df_productos, df_vendedores):
     df_itens_pedidos.reset_index(drop=True, inplace=True)
     
     # Crear columna con sólo las siglas de los estados
-    df_itens_pedidos['abbrev_state'] = df_itens_pedidos['ciudad'].str.replace('BR-', '')
+    #df_itens_pedidos['abbrev_state'] = df_itens_pedidos['ciudad'].str.replace('BR-', '')
+    df_itens_pedidos = df_itens_pedidos.copy()  # hice este cambio porque me daba un error, si gustan comenten la linea 60 y 61 y luego descomenten la 59 que es el codigo original
+    df_itens_pedidos.loc[:, 'abbrev_state'] = df_itens_pedidos['ciudad'].str.replace('BR-', '')
+
+
     
     return df_itens_pedidos, df_pedidos, df_productos, df_vendedores
 
