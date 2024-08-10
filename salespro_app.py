@@ -33,6 +33,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
+# Insertar logo en el sidebar
+st.sidebar.image("./img/BCX.jpg", width=100) 
+st.sidebar.image("./img/LogoSales.jpeg", width=100)
 # Sidebar
 st.sidebar.header("Filtros")
 
