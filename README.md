@@ -85,15 +85,15 @@ Funcionalidades:   Cuadros -   Filtros  - Gráficos
 
   Filtros Habilitados para Selecciones
 
-![Filtros Selección](img/SalesProDashboardGraficos.jpg)
+![Filtros Selección](img/SalesProDashboardGraficos.png)
 
   Ejemplo Filtro por Estado
 
-![Filtro por Estado](img/SalesProDashEstado.jpg)
+![Filtro por Estado](img/SalesProDashEstado.png)
 
   Selección de Ventas de un producto por Vendedores
   
-  ![Ventas de Un producto por Vendedor](img/SalesProDashVendeoresProd.jpg)
+  ![Ventas de Un producto por Vendedor](img/SalesProDashVendeoresProd.png)
   
 ## <h3 align="center">🛠️ Miembros del Equipo</h3>
 <br>
