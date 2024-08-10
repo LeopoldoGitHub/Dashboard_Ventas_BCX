@@ -1,7 +1,7 @@
-#         **Dashboard de Ventas**
+# **Dashboard de Ventas**
 Bootcamp Xperience
 
-   ![Grupo 2 Bx](img/LogoG2X-50.jpg)
+<img src="img/LogoSales.jpeg" alt="SalesPro" width="200"/>
 
 ## Información
 Aplicación en línea que muestra información consolidadada por regiones, ciudades, vendedores y productos de la evolución de compras en una tienda ubicada en el territorio brasilero. 
