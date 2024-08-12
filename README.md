@@ -5,7 +5,7 @@ Bootcamp Xperience
 
 <hr>
 <div align="center"> 
-<a target="_blank" rel="noopener noreferrer" href="https://salespro.streamlit.app/"><img src="img/streamlit-button.png"width="30%"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://salespro.streamlit.app/"><img src="img/Streamlit-Logo-Vector.svg-.png"width="30%"></a>
 </div>
 <hr>
 
