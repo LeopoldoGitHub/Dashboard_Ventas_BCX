@@ -1,7 +1,8 @@
-<h1><b>SalesPro: Dashboard de Ventas</b></h1>
-Bootcamp Xperience
-
-<img src="img/LogoSales.jpeg" alt="SalesPro" width="200"/>
+<div align="center">
+    <h1><b>SalesPro: Dashboard de Ventas</b></h1>
+    <p>Bootcamp Xperience</p>
+    <img src="img/LogoSales.jpeg" alt="SalesPro" width="200"/>
+</div>
 
 <hr>
 <div align="center"> 
