@@ -18,15 +18,14 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.title("Bienvenido al Dashboard de Ventas-SalesPro")
-st.image("./img/LogoSales.jpeg", width=350)
+st.title("Bienvenido a SalesPro-Dashboard de Ventas")
 
 # CSS personalizado para el fondo azul oscuro
 st.markdown(
     """
     <style>
     .stApp {
-        background-color: #00008B;
+        background-color: #0e0a31;
     }
     </style>
     """,
