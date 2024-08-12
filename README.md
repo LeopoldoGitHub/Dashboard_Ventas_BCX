@@ -5,7 +5,10 @@ Bootcamp Xperience
 
 <hr>
 <div align="center"> 
-<a target="_blank" rel="noopener noreferrer" href="https://salespro.streamlit.app/"><img src="img/Streamlit-Logo-Vector.svg-.png"width="30%"></a>
+    <p>Haz clic en el ícono para ver la app:</p>
+    <a target="_blank" rel="noopener noreferrer" href="https://salespro.streamlit.app/">
+        <img src="img/Streamlit-Logo-Vector.svg-.png" width="30%">
+    </a>
 </div>
 <hr>
 
