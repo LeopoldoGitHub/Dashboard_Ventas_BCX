@@ -1,14 +1,14 @@
-# **Dashboard de Ventas**
+<h1><b>SalesPro: Dashboard de Ventas</b></h1>
 Bootcamp Xperience
 
 <img src="img/LogoSales.jpeg" alt="SalesPro" width="200"/>
-<h1><b>SalesPro: Dashboard de Ventas</b></h1>
+
 <hr>
 <div align="center"> 
-<a target="_blank" rel="noopener noreferrer" href="https://salespro.streamlit.app/"><img src="Media/streamlit-button.png"width="30%"></a>
-
+<a target="_blank" rel="noopener noreferrer" href="https://salespro.streamlit.app/"><img src="img/streamlit-button.png"width="30%"></a>
 </div>
 <hr>
+
 <br>
 ## Información
 Aplicación en línea que muestra información consolidadada por regiones, ciudades, vendedores y productos de la evolución de compras en una tienda ubicada en el territorio brasilero. 
