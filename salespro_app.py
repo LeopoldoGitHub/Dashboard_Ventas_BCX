@@ -17,25 +17,42 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-
-st.title("Bienvenido a SalesPro-Dashboard de Ventas")
-
-# CSS personalizado para el fondo azul oscuro
+# CSS personalizado para ajustar el tamaño y centrar el texto
 st.markdown(
     """
     <style>
+    .title1 {
+        font-size: 30px;
+        text-align: left;
+    }
+    .title2 {
+        font-size: 24px;
+        text-align: center;
+    }
     .stApp {
         background-color: #0e0a31;
+    }
+    .sidebar-images {
+        display: flex;
+        justify-content: space-around;
+    }
+    .sidebar-images img {
+        margin: 0 10px;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
 
+# Aplicar las clases CSS a los títulos
+st.markdown('<h2 class="title2">Bienvenido a SalesPro-Dashboard de Ventas</h2>', unsafe_allow_html=True)
 
-# Insertar logo en el sidebar
-st.sidebar.image("./img/BCX.jpg", width=100) 
-st.sidebar.image("./img/LogoSales.jpeg", width=100)
+# Insertar logos en el sidebar alineados uno al lado del otro usando st.image
+col1, col2 = st.sidebar.columns(2)
+with col1:
+    st.image("./img/BCX.jpg", width=100)
+with col2:
+    st.image("./img/LogoSales.jpeg", width=100)
 # Sidebar
 st.sidebar.header("Filtros")
 
