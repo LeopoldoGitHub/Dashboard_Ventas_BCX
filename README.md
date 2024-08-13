@@ -1,7 +1,7 @@
 <div align="center">
     <h1><b>SalesPro: Dashboard de Ventas</b></h1>
-    <p>Bootcamp Xperience</p>
     <img src="img/LogoSales.jpeg" alt="SalesPro" width="200"/>
+    <p>Bootcamp Xperience</p>
 </div>
 
 <hr>
@@ -14,7 +14,6 @@
 <hr>
 
 <br>
-## Información
 Aplicación en línea que muestra información consolidadada por regiones, ciudades, vendedores y productos de la evolución de compras en una tienda ubicada en el territorio brasilero. 
 Dashboard interactivo de una empresa de e-commerce desplegado en la plataforma Streamlit.
 
@@ -112,7 +111,7 @@ Funcionalidades:   Cuadros -   Filtros  - Gráficos
 
 |Participantes|Roles|Redes|
 |:---:|:---:|:---:|
-|**Mirna**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mirna-prieto-990356242/">![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
+|**Mirna Prieto**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mirna-prieto-990356242/">![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 |**Edwin Garcia**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge) | <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/edd-garcia/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> |
 |**Juan Campos**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jumacaq/">[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jumacaq/)</a> |
 |**Leopoldo Flores**|![](https://img.shields.io/badge/DATA%20SCIENTIST-blue?style=for-the-badge)| <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/leopoldofloresc/">[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leopoldofloresc/)</a> |
@@ -122,8 +121,6 @@ Funcionalidades:   Cuadros -   Filtros  - Gráficos
 
 </div>
 <br>
-
-
 
 
 ## <h2>🚧 Stack de Tecnologías </h2>
